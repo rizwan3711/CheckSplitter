@@ -10,9 +10,22 @@
 		45DED1FE26A00B2C005AFE86 /* CheckSplitterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DED1FD26A00B2C005AFE86 /* CheckSplitterApp.swift */; };
 		45DED20026A00B2C005AFE86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DED1FF26A00B2C005AFE86 /* ContentView.swift */; };
 		45DED20226A00B2E005AFE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DED20126A00B2E005AFE86 /* Assets.xcassets */; };
-		45DED20526A00B2E005AFE86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DED20426A00B2E005AFE86 /* Preview Assets.xcassets */; };
 		45DED21026A00B2E005AFE86 /* CheckSplitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DED20F26A00B2E005AFE86 /* CheckSplitterTests.swift */; };
 		45DED21B26A00B2E005AFE86 /* CheckSplitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DED21A26A00B2E005AFE86 /* CheckSplitterUITests.swift */; };
+		45DED22926A00B4D005AFE86 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DED22826A00B4D005AFE86 /* WelcomePage.swift */; };
+		45FAE65626C39BC100E21D40 /* NormalSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE65526C39BC100E21D40 /* NormalSplit.swift */; };
+		45FAE65826C4A03400E21D40 /* NumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE65726C4A03400E21D40 /* NumberTextField.swift */; };
+		45FAE66026CD8FAF00E21D40 /* NumbersOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE65F26CD8FAF00E21D40 /* NumbersOnly.swift */; };
+		45FAE66226CD91DB00E21D40 /* FunSplitMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE66126CD91DB00E21D40 /* FunSplitMenu.swift */; };
+		45FAE66626CD93ED00E21D40 /* NumberGuess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE66526CD93ED00E21D40 /* NumberGuess.swift */; };
+		45FAE67326D3647500E21D40 /* NumberGuessLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE67226D3647500E21D40 /* NumberGuessLogic.swift */; };
+		45FAE67726D4426200E21D40 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE67626D4426200E21D40 /* PlayerModel.swift */; };
+		45FAE67E26D9877B00E21D40 /* RNGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE67D26D9877B00E21D40 /* RNGView.swift */; };
+		45FAE68026D999AC00E21D40 /* RNGVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE67F26D999AC00E21D40 /* RNGVM.swift */; };
+		45FAE68326D9F19900E21D40 /* CoinFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE68226D9F19900E21D40 /* CoinFlipView.swift */; };
+		45FAE68526D9F1A400E21D40 /* CoinFlipVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE68426D9F1A400E21D40 /* CoinFlipVM.swift */; };
+		45FAE68726DCA61600E21D40 /* PercentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE68626DCA61600E21D40 /* PercentVM.swift */; };
+		45FBF8B726E0AB6E0046A6A8 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBF8B626E0AB6E0046A6A8 /* AppColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +50,6 @@
 		45DED1FD26A00B2C005AFE86 /* CheckSplitterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSplitterApp.swift; sourceTree = "<group>"; };
 		45DED1FF26A00B2C005AFE86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		45DED20126A00B2E005AFE86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		45DED20426A00B2E005AFE86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45DED20626A00B2E005AFE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45DED20B26A00B2E005AFE86 /* CheckSplitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckSplitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45DED20F26A00B2E005AFE86 /* CheckSplitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSplitterTests.swift; sourceTree = "<group>"; };
@@ -45,6 +57,20 @@
 		45DED21626A00B2E005AFE86 /* CheckSplitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckSplitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45DED21A26A00B2E005AFE86 /* CheckSplitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSplitterUITests.swift; sourceTree = "<group>"; };
 		45DED21C26A00B2E005AFE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45DED22826A00B4D005AFE86 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		45FAE65526C39BC100E21D40 /* NormalSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalSplit.swift; sourceTree = "<group>"; };
+		45FAE65726C4A03400E21D40 /* NumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextField.swift; sourceTree = "<group>"; };
+		45FAE65F26CD8FAF00E21D40 /* NumbersOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersOnly.swift; sourceTree = "<group>"; };
+		45FAE66126CD91DB00E21D40 /* FunSplitMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunSplitMenu.swift; sourceTree = "<group>"; };
+		45FAE66526CD93ED00E21D40 /* NumberGuess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGuess.swift; sourceTree = "<group>"; };
+		45FAE67226D3647500E21D40 /* NumberGuessLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGuessLogic.swift; sourceTree = "<group>"; };
+		45FAE67626D4426200E21D40 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		45FAE67D26D9877B00E21D40 /* RNGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNGView.swift; sourceTree = "<group>"; };
+		45FAE67F26D999AC00E21D40 /* RNGVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNGVM.swift; sourceTree = "<group>"; };
+		45FAE68226D9F19900E21D40 /* CoinFlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipView.swift; sourceTree = "<group>"; };
+		45FAE68426D9F1A400E21D40 /* CoinFlipVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipVM.swift; sourceTree = "<group>"; };
+		45FAE68626DCA61600E21D40 /* PercentVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentVM.swift; sourceTree = "<group>"; };
+		45FBF8B626E0AB6E0046A6A8 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +121,15 @@
 		45DED1FC26A00B2C005AFE86 /* CheckSplitter */ = {
 			isa = PBXGroup;
 			children = (
+				45FAE65426C39BB000E21D40 /* Views */,
 				45DED1FD26A00B2C005AFE86 /* CheckSplitterApp.swift */,
+				45FAE65F26CD8FAF00E21D40 /* NumbersOnly.swift */,
 				45DED1FF26A00B2C005AFE86 /* ContentView.swift */,
 				45DED20126A00B2E005AFE86 /* Assets.xcassets */,
 				45DED20626A00B2E005AFE86 /* Info.plist */,
 				45DED20326A00B2E005AFE86 /* Preview Content */,
+				45FAE65726C4A03400E21D40 /* NumberTextField.swift */,
+				45FBF8B626E0AB6E0046A6A8 /* AppColor.swift */,
 			);
 			path = CheckSplitter;
 			sourceTree = "<group>";
@@ -107,7 +137,6 @@
 		45DED20326A00B2E005AFE86 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				45DED20426A00B2E005AFE86 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -128,6 +157,72 @@
 				45DED21C26A00B2E005AFE86 /* Info.plist */,
 			);
 			path = CheckSplitterUITests;
+			sourceTree = "<group>";
+		};
+		45FAE65426C39BB000E21D40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45DED22826A00B4D005AFE86 /* WelcomePage.swift */,
+				45FAE66426CD91F500E21D40 /* Fun Split */,
+				45FAE66326CD91E500E21D40 /* Normal Split */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		45FAE66326CD91E500E21D40 /* Normal Split */ = {
+			isa = PBXGroup;
+			children = (
+				45FAE65526C39BC100E21D40 /* NormalSplit.swift */,
+			);
+			path = "Normal Split";
+			sourceTree = "<group>";
+		};
+		45FAE66426CD91F500E21D40 /* Fun Split */ = {
+			isa = PBXGroup;
+			children = (
+				45FAE66126CD91DB00E21D40 /* FunSplitMenu.swift */,
+				45FAE67626D4426200E21D40 /* PlayerModel.swift */,
+				45FAE68626DCA61600E21D40 /* PercentVM.swift */,
+				45FAE66B26D2CEAA00E21D40 /* Games */,
+			);
+			path = "Fun Split";
+			sourceTree = "<group>";
+		};
+		45FAE66B26D2CEAA00E21D40 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				45FAE68126D9F18800E21D40 /* CoinFlip */,
+				45FAE67A26D9872100E21D40 /* RNG */,
+				45FAE67826D80A8E00E21D40 /* NumberGuess */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		45FAE67826D80A8E00E21D40 /* NumberGuess */ = {
+			isa = PBXGroup;
+			children = (
+				45FAE66526CD93ED00E21D40 /* NumberGuess.swift */,
+				45FAE67226D3647500E21D40 /* NumberGuessLogic.swift */,
+			);
+			path = NumberGuess;
+			sourceTree = "<group>";
+		};
+		45FAE67A26D9872100E21D40 /* RNG */ = {
+			isa = PBXGroup;
+			children = (
+				45FAE67D26D9877B00E21D40 /* RNGView.swift */,
+				45FAE67F26D999AC00E21D40 /* RNGVM.swift */,
+			);
+			path = RNG;
+			sourceTree = "<group>";
+		};
+		45FAE68126D9F18800E21D40 /* CoinFlip */ = {
+			isa = PBXGroup;
+			children = (
+				45FAE68226D9F19900E21D40 /* CoinFlipView.swift */,
+				45FAE68426D9F1A400E21D40 /* CoinFlipVM.swift */,
+			);
+			path = CoinFlip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +328,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45DED20526A00B2E005AFE86 /* Preview Assets.xcassets in Resources */,
 				45DED20226A00B2E005AFE86 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +353,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DED22926A00B4D005AFE86 /* WelcomePage.swift in Sources */,
+				45FAE68026D999AC00E21D40 /* RNGVM.swift in Sources */,
+				45FAE65626C39BC100E21D40 /* NormalSplit.swift in Sources */,
+				45FAE67E26D9877B00E21D40 /* RNGView.swift in Sources */,
 				45DED20026A00B2C005AFE86 /* ContentView.swift in Sources */,
+				45FAE67726D4426200E21D40 /* PlayerModel.swift in Sources */,
+				45FAE68326D9F19900E21D40 /* CoinFlipView.swift in Sources */,
+				45FAE65826C4A03400E21D40 /* NumberTextField.swift in Sources */,
+				45FAE66626CD93ED00E21D40 /* NumberGuess.swift in Sources */,
+				45FBF8B726E0AB6E0046A6A8 /* AppColor.swift in Sources */,
+				45FAE66226CD91DB00E21D40 /* FunSplitMenu.swift in Sources */,
+				45FAE68526D9F1A400E21D40 /* CoinFlipVM.swift in Sources */,
+				45FAE67326D3647500E21D40 /* NumberGuessLogic.swift in Sources */,
+				45FAE66026CD8FAF00E21D40 /* NumbersOnly.swift in Sources */,
+				45FAE68726DCA61600E21D40 /* PercentVM.swift in Sources */,
 				45DED1FE26A00B2C005AFE86 /* CheckSplitterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
